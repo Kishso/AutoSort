@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="EasyOpenShulkerBoxes.jar">
+    <output-path>$PROJECT_DIR$/../../Minecraft/Plugins</output-path>
+    <root id="archive" name="EasyOpenShulkerBoxes.jar">
+      <element id="module-output" name="EasyOpenShulkerBoxes" />
+      <element id="library" level="project" name="spigot-api-1.16.1-R0.1-SNAPSHOT-shaded" />
+    </root>
+  </artifact>
+</component>

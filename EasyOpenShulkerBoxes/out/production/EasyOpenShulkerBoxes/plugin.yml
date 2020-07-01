@@ -1,0 +1,9 @@
+name: EasyOpenShulkerBoxes
+version: 1.0
+author: Kishso
+main: me.kishso.easyopenshulkerboxes.Main
+api-version: 1.16
+permissions:
+  shulkerbox.easyopen:
+    description: Allows a player to shift-right click a shulkber box in their inventory to open
+    default: true
