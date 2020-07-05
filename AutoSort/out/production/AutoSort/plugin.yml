@@ -1,0 +1,17 @@
+name: AutoSort
+version: 1.0
+author: Kishso
+main: me.kishso.autosort.Main
+api-version: 1.16
+permissions:
+  autosort.book.open:
+    description: Allows a player to open the GUI to set a order for sorting
+    default: true
+  autosort.book.give:
+    description: Allows a player to obtain an AutoSort book using the autosort command
+    default: true
+commands:
+  autosort:
+    description: Gives the player a book to use to sort chests.
+    usage: /<command> [title of book]
+    permission: autosort.book.give

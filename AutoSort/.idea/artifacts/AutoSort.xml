@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="AutoSort">
+    <output-path>$PROJECT_DIR$/../../Minecraft/Plugins</output-path>
+    <root id="archive" name="AutoSort.jar">
+      <element id="module-output" name="AutoSort" />
+      <element id="library" level="application" name="spigot-api-1.16.1-R0.1-SNAPSHOT-shaded" />
+    </root>
+  </artifact>
+</component>
